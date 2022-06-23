@@ -1,0 +1,13 @@
+@host=http://localhost:4500
+
+
+###  convert a number 
+POST {{host}}/custom-arabic
+Content-Type: application/json
+
+{
+    "number": 2047
+}
+
+### convert a number
+GET {{host}}/custom-arabic/1870
